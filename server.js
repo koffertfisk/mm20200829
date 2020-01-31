@@ -7,6 +7,7 @@ var port = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/static', express.static(__dirname + '/static'))
+app.use('/vegas', express.static(__dirname + '/node_modules/vegas/dist/'))
 
 app.get('/', function (req, res) {
     res.sendFile('index.html', { root: __dirname });
