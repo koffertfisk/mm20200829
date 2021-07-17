@@ -34,7 +34,6 @@ body, #bg{
   z-index: 1;
 }
 
-
 a{ text-decoration:none; color:#fff; }
 p{margin:1% 2%;}
 h1, h3{
@@ -46,11 +45,6 @@ h1, h3{
 }
 h1{ font-size:3em; margin-top:1em;}
 h3{ font-size:1em; letter-spacing:0.3em;}
-
-
-
-/*#page{ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpiZGBg6GGAgEUggokBDTACsR6yAIYKgAADAE0GAWM9RhAyAAAAAElFTkSuQmCC);
-}*/
 
 footer{
   position:absolute;
@@ -70,3 +64,71 @@ footer li a{
 footer li:nth-child(1) a{
   border: none;
 }
+
+.frame {
+  margin-top: 20px;
+  background-image: url(../images/frame.svg);
+  filter: invert(100%);
+    -webkit-filter: invert(100%);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  text-align: center;
+}
+
+.text-container {
+  padding: 50px;
+}
+
+.text-container h4 {
+  color: white;
+}
+
+.text-container h1 {
+  background: none;
+}
+
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.top-buffer { 
+  margin-top:20px; 
+}
+
+/*.frame-background {
+  background:rgba(0,0,0,0.5);
+  display:inline-block;
+  padding:10px 15px 10px 0;
+}*/
+
+.celtic-frame {
+  border-image: url(../images/frame.svg) 25% round; 
+  border-width: 80px;
+  border-style: solid;
+}
+/*.frame {
+  background-image: url(../images/frame.svg);
+  background-repeat: no-repeat;
+  filter: invert(100%);
+    -webkit-filter: invert(100%);
+  width: 640px;
+  height: 427px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  opacity: 50%;
+}*/
