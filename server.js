@@ -29,6 +29,14 @@ app.get('/children', function (req, res) {
     res.sendFile('templates/children.html', { root: __dirname });
 });
 
+app.get('/gifts', function (req, res) {
+    res.sendFile('templates/gifts.html', { root: __dirname });
+});
+
+app.get('/food', function (req, res) {
+    res.sendFile('templates/food.html', { root: __dirname });
+});
+
 var server = app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });

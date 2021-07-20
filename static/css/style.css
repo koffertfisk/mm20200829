@@ -8,6 +8,10 @@
   src: url(Norse-KaWl.otf);
 }
 
+.center-align {
+  text-align: center;
+}
+
 .quotes {display: none;}
 
 html, body{
@@ -35,34 +39,94 @@ body, #bg{
 }
 
 a{ text-decoration:none; color:#fff; }
-p{margin:1% 2%;}
-h1, h3{
+/*p{margin:1% 2%;}*/
+/*h1, h3{
+  font-weight:200;
+  display:inline-block;
+  background:rgba(0,0,0,0.4);
+  padding: 0.3em 1em;
+  margin:2px;
+}*/
+.quotes h1 { 
+  font-weight:200;
+  font-size:3em; 
+  margin-top:1em;
+  display:inline-block;
+  background:rgba(0,0,0,0.4);
+  padding: 0.3em 1em;
+  margin:2px;
+}
+
+.quotes h2 { 
+  /*font-size:2em; */
+  letter-spacing:0.3em;
   font-weight:200;
   display:inline-block;
   background:rgba(0,0,0,0.4);
   padding: 0.3em 1em;
   margin:2px;
 }
-h1{ font-size:3em; margin-top:1em;}
-h3{ font-size:1em; letter-spacing:0.3em;}
 
-footer{
-  position:absolute;
+.quotes h3 { 
+  font-size:1em; 
+  letter-spacing:0.3em;
+  font-weight:200;
+  display:inline-block;
   background:rgba(0,0,0,0.4);
-  width:100%;
-  bottom:0;
-  text-align:center;
+  padding: 0.3em 1em;
+  margin:2px;
 }
-footer li{
+
+.quotes p { 
+  font-weight:200;
   display:inline-block;
+  background:rgba(0,0,0,0.4);
+  padding: 0.3em 1em;
+  margin:2px;
 }
-footer li a{
-  display:inline-block;
-  padding:1em 2em;
-  border: none;
+
+.bg {
+  /* The image used */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-footer li:nth-child(1) a{
-  border: none;
+
+.bg-program {
+  background-image: url("../images/1.jpg");
+}
+
+.bg-dresscode {
+  background-image: url("../images/dresscode_small.jpg");
+}
+
+@media (min-width: 577px) {
+  .bg-dresscode {
+    background-image: url("../images/dresscode.jpg");
+  }
+}
+
+.bg-children {
+  background-image: url("../images/children.jpg");
+}
+
+.bg-food {
+  background-image: url("../images/food.jpg");
+}
+
+.bg-directions 
+{
+  background-image: url("../images/directions.jpg");
+}
+
+.bg-gifts
+ {
+  background-image: url("../images/gifts.jpg");
 }
 
 .frame {
@@ -93,6 +157,7 @@ footer li:nth-child(1) a{
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  margin-left: 8px;
 }
 
 .map-responsive iframe {
@@ -106,29 +171,3 @@ footer li:nth-child(1) a{
 .top-buffer { 
   margin-top:20px; 
 }
-
-/*.frame-background {
-  background:rgba(0,0,0,0.5);
-  display:inline-block;
-  padding:10px 15px 10px 0;
-}*/
-
-.celtic-frame {
-  border-image: url(../images/frame.svg) 25% round; 
-  border-width: 80px;
-  border-style: solid;
-}
-/*.frame {
-  background-image: url(../images/frame.svg);
-  background-repeat: no-repeat;
-  filter: invert(100%);
-    -webkit-filter: invert(100%);
-  width: 640px;
-  height: 427px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  background-color: #fff;
-  opacity: 50%;
-}*/

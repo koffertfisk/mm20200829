@@ -10,12 +10,11 @@
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="static/css/style.css" rel="stylesheet"></link>
-  <link rel="stylesheet" href="/vegas/vegas.min.css">
   <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 
 <body>
-  <div id="bg"></div>
+  <div class="bg bg-program"></div>
 
   <div id="page">
 	  
@@ -29,44 +28,64 @@
           <a class="nav-item nav-link active" href="#">Program</a>
           <a class="nav-item nav-link" href="/dresscode">Dresscode</a>
           <a class="nav-item nav-link" href="/children">Barn</a>
+          <a class="nav-item nav-link" href="/gifts">Presenter</a>
+          <a class="nav-item nav-link" href="/food">Mat</a>
           <a class="nav-item nav-link" href="/directions">Vägbeskrivning</a>
         </div>
       </div>
     </nav>
 
     <div class="container">
-      <div class="row top-buffer">
+      <div class="row justify-content-between top-buffer">
         <div class="col-md-6" style="background-color: rgba(19, 17, 17, 0.479); ">
-          <!--<div class="celtic-frame">-->
-            <div class="program-wrapper" style="padding: 8px;">
-              <h2>12:30 Välkomst</h2>
-              <div style="margin-left: 8px;">
-                <p>Vi välkomnar våra gäster och dryck serveras.</p>
-              </div>
-              <div style="margin-top: 16px;">
-                <h2>13.00 - 14.30 Hantverk & mingel</h2>
-                <div style="margin-left: 8px;">
-                  <p>Prova på olika hantverk så som smide, ulltovning, runverkstad och Tunnbrödsbakning!</p>
-                </div>
-              </div>
-              <div style="margin-top: 16px;">
-                <h2>15.00 Kämpalekar</h2>
-              </div>  
-              <div style="margin-top: 16px;">
-                <h2>16.00 Bröllopsceremonin</h2>
-              </div>
-              <div style="margin-top: 16px;">
-                <h2>17.00 Grillbuffé</h2>
-              </div>
-              <div style="margin-top: 16px;">
-                <h2>18.00 Kaffe och ”Eldhäng”</h2>
-              </div>
-              <div style="margin-top: 16px;">
-                <h2>21.00 Avsked</h2>
+          <div class="program-wrapper" style="padding: 8px;">
+            <div class="center-align">
+              <p>Observera att tiderna är ungefärliga!</p>
+            </div>
+            <h4>12:30 Välkomst</h4>
+            <div style="margin-left: 16px;">
+              <p>Vi välkomnar våra gäster - dryck serveras.</p>
+            </div>
+            <div style="margin-top: 16px;">
+              <h4>13:00 - 14:30 Hantverk & mingel</h4>
+              <div style="margin-left: 16px;">
+                <p>Prova på olika hantverk så som smide, ulltovning, runverkstad och Tunnbrödsbakning!</p>
               </div>
             </div>
+            <div style="margin-top: 16px;">
+              <h4>15:00 Kämpalekar</h4>
+              <div style="margin-left: 16px;">
+                <p>Vikingatida tävlingar</p>
+              </div>
+            </div>  
+            <div style="margin-top: 16px;">
+              <h4>16:00 Bröllopsceremonin</h4>
+              <div style="margin-left: 16px;">
+                <p>Avfärd mot den närliggande ekbacken där ceremonin hålls.</p>
+              </div>
+            </div>
+            <div style="margin-top: 16px;">
+              <h4>17:00 Grillbuffé</h4>
+              <div style="margin-left: 16px;">
+                <p>Plockmat serverad utomhus.</p>
+              </div>
+            </div>
+            <div style="margin-top: 16px;">
+              <h4>18:00 Kaffe och ”Eldhäng”</h4>
+            </div>
+            <div style="margin-top: 16px;">
+              <h4>21:00 Avsked</h4>
+            </div>
+          </div>
 
-          <!--</div>-->
+        </div>
+        <div class="col-md-3">
+          <div style="background-color: rgba(19, 17, 17, 0.479); padding: 8px;">
+            <p>Vi ni hålla tal under bröllopet, kontakta vår toastmaster Tobias Grylling:</p>
+            <div class="center-align">
+              <a href="mailto:tobias.grylling@gmail.com">tobias.grylling@gmail.com</a>  
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -101,38 +120,11 @@
 
         <!--Avsked 21.00 senast, avsked för de flesta gästerna. 15 personer stannar kvar.-->
 
-    <!--<footer>
-      <ul>-->
-        <!--<li><a href="#">Present</a></li>-->
-        <!--<li><a href="#">Program</a></li>
-        <li><a href="#">Dresscode</a></li>
-        <li><a href="#">Barn</a></li>
-        <li><a href="#">Mat</a></li>
-        <li><a href="#">Vägbeskrivning</a></li>-->
-        <!--<li><a href="#">Fotogalleri</a></li>-->
-      <!--</ul>
-    </footer>-->
-
   </div>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="/vegas/vegas.min.js"></script>
-  <script type="text/javascript">
-    var images = [
-      {src: "static/images/1.jpg"}
-    ];
-    $("#bg, body").vegas({
-      delay: 4000,
-      timer: false,
-      preload: true,
-      firstTransitionDuration: 'auto',
-      align: 'center',
-      slidesToKeep: 3,
-      slides: images
-    });
-  </script>
   
 </body>
 </html>
