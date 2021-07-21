@@ -10,13 +10,12 @@
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="static/css/style.css" rel="stylesheet"></link>
-  <link rel="stylesheet" href="/vegas/vegas.min.css">
   <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 
 <body>
-  <div id="bg"></div>
-  
+  <div class="bg bg-dresscode"></div>
+
   <div id="page">
 	  
     <nav class="navbar navbar-dark bg-dark justify-content-between">
@@ -28,7 +27,7 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="/program">Program</a>
           <a class="nav-item nav-link" href="/osa">OSA</a>
-          <a class="nav-item nav-link" href="/dresscode">Dresscode</a>
+          <a class="nav-item nav-link active" href="#">Dresscode</a>
           <a class="nav-item nav-link" href="/children">Barn</a>
           <a class="nav-item nav-link" href="/gifts">Presenter</a>
           <a class="nav-item nav-link" href="/food">Mat</a>
@@ -37,10 +36,27 @@
       </div>
     </nav>
 
-    <div class="quotes">
-      <h1>Välkommen till vårt bröllop!</h1><br>
-      <h3>Vikingabyn Storholmen Lördagen Den 28/8/21 12:30 - 21:00</h3><br>
-      <h3>OSA senast 18/8</h3><br>
+    <div class="container">
+      <div class="row top-buffer">
+        <div class="col-md-6 offset-md-4">
+          <div style="background-color: rgba(19, 17, 17, 0.678); padding: 8px;">
+            <p class="center-align">Våra gäster får gärna klä sig i historiska vikingakläder. Fullgoda alternativ inkluderar linnekläder och/eller plagg i naturtrogna färger.<br></p>
+            <p class="center-align">Med andra ord - lämna kostymer och dylikt hemma denna gång!<br></p>
+
+            <p class="center-align">Använd med fördel länkarna nedan för inspiration och tips - tveka inte heller att kontaka oss för ytterligare vägledning och smakråd.</p>
+            <div class="center-align">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://viking.se/">https://viking.se/</a></li>
+                <li class="list-inline-item"><a href="https://urda.se/">https://urda.se/</a></li>
+                <li class="list-inline-item"><a href="https://spqr.se/">https://spqr.se/</a></li>
+                <li class="list-inline-item"><a href="https://korps.se/">https://korps.se/</a></li>
+                <li class="list-inline-item"><a href="https://klesarven.com/">https://klesarven.com/</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="w-100"></div>
+      </div>
     </div>
 
     <footer>
@@ -56,9 +72,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="/vegas/vegas.min.js"></script>
-  <script src="static/js/script.js" type="text/javascript"></script>
-  <script src="static/js/common.js" type="text/javascript"></script>
+  <script src="../static/js/common.js" type="text/javascript"></script>
   
 </body>
 </html>
