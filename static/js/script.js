@@ -1,15 +1,7 @@
 var images = [
   {src: "static/images/1.jpg"},
   {src: "static/images/3.jpg"},
-  /*{src: "static/images/4.jpg", align: 'right'},
-  {src: "static/images/5.jpg", align: 'left'},
-  {src: "static/images/6.jpg"},
-  {src: "static/images/7.jpg"},
-  {src: "static/images/8.jpg", align: 'left'},
-  {src: "static/images/9.jpg"},
-  {src: "static/images/10.jpg"},*/
   {src: "static/images/11.jpg"},
-  /*{src: "static/images/12.jpg"},*/
   {src: "static/images/13.jpg", align: 'right', valign: 'top'},
   {src: "static/images/2.jpg"},
 ];
