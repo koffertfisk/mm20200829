@@ -37,6 +37,10 @@ app.get('/food', function (req, res) {
     res.sendFile('templates/food.html', { root: __dirname });
 });
 
+app.get('/osa', function (req, res) {
+    res.sendFile('templates/osa.html', { root: __dirname });
+});
+
 var server = app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });
